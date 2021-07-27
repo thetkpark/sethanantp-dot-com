@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import getJoke from '../utils/joke'
 
-export default function Home() {
+export default function Home({ joke }) {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
@@ -37,8 +38,16 @@ export default function Home() {
       </div>
       <div className={styles.joke}>
         <Image src="/images/nong.svg" width="40px" height="70px" alt="just a joke" />
-        <span>What? no frontend</span>
+        <span>{joke}</span>
       </div>
     </div>
   )
+}
+
+export async function getStaticProps(context) {
+  return {
+    props: {
+      joke: getJoke(),
+    },
+  }
 }
