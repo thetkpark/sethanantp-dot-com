@@ -35,6 +35,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <div className={styles.joke}>
+        <Image src="/images/nong.svg" width="40px" height="70px" alt="just a joke" />
+        <span>What? no frontend</span>
+      </div>
     </div>
   )
 }
