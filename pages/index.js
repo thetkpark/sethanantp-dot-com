@@ -14,24 +14,24 @@ export default function Home() {
             alt="profile picture"
             src="/images/profile_pic.webp"
           />
-          <div style={{ width: '100px' }} />
+          <div style={{ width: '5vw' }} />
           <div>
             <h1 className={styles.name}>Sethanant</h1>
             <h1 className={styles.name}>Pipatpakorn</h1>
           </div>
         </div>
         <div className={styles.sectorTwo}>
-          <h4>Backend, Cloud, Ops, ... but not frontend</h4>
+          <h4>Backend, Cloud, Ops, Blockchain, ... but not frontend</h4>
         </div>
         <div className={styles.sectorThree}>
-          <Link href="">
-            <a>About</a>
+          <Link href="/about">
+            <a className={styles.link}>About</a>
           </Link>
           <Link href="https://blog.sethanantp.com">
-            <a>Blog</a>
+            <a className={styles.link}>Blog</a>
           </Link>
-          <Link href="">
-            <a>Contact</a>
+          <Link href="/contact">
+            <a className={styles.link}>Contact</a>
           </Link>
         </div>
       </div>

@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -6,6 +7,16 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
+
+  background-color: #322E2D;
+  background-image: url('/images/bg.webp');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .main {
@@ -31,15 +42,29 @@
 
 .name {
   font-size: 3rem;
+  color: #e4e4e4;
 }
 
 .sectorTwo {
   margin: 1rem 0 2rem;
 }
 
+.sectorTwo h4 {
+  color: #BEBEBE;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
 .sectorThree {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 20vw;
+  width: 25vw;
+}
+
+.link {
+  color: #BEBEBE;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
