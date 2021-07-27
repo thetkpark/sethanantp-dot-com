@@ -51,7 +51,7 @@ export default function Home({ joke }) {
   )
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps(_) {
   return {
     props: {
       joke: getJoke(),
