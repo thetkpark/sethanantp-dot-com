@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Fragment } from 'react'
 import { getContactJoke } from '../utils/joke'
 import styles from '../styles/Contact.module.css'
+import BackButton from '../components/BackButton'
 
 const Contacts = ({ joke }) => {
   const contactData = [
@@ -51,6 +52,7 @@ const Contacts = ({ joke }) => {
         <title>Sethanant Pipatpakorn | Contact</title>
       </Head>
       <div className={styles.container}>
+        <BackButton />
         <div className={styles.main}>
           <h1 className={styles.heading}>Contact</h1>
           <div>{contact}</div>

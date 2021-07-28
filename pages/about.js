@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import styles from '../styles/About.module.css'
 import AboutSection from '../components/AboutSection'
 import aboutData from '../utils/aboutData'
+import BackButton from '../components/BackButton'
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
         <title>Sethanant Pipatpakorn | About</title>
       </Head>
       <div className={styles.container}>
+        <BackButton />
         <div className={styles.main}>
           <div className={styles.header}>
             <Image
