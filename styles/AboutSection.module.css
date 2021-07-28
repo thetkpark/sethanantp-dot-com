@@ -1,13 +1,19 @@
+.container {
+    margin-left: 2vw;
+}
+
 .gridContainer {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-around;
+    grid-template-columns: 30vw 30vw;
+    justify-content: space-between;
     width: 70vw;
+    margin-left: 2vw;
 }
 
 .headerText {
     font-size: 2rem;
     font-weight: 600;
     color: #f2f2f2;
-    margin-left: 2vw;
+    margin-bottom: 0;
+    margin-top: 3em;
 }
