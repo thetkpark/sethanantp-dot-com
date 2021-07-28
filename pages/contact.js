@@ -13,7 +13,7 @@ const Contacts = ({ joke }) => {
     {
       icon: faEnvelope,
       text: 'sethanant.p@icloud.com',
-      link: '',
+      link: 'mailto:sethanant.p@icloud.com',
     },
     {
       icon: faGithub,
