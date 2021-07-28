@@ -4,7 +4,9 @@ import { Fragment } from 'react'
 import styles from '../styles/About.module.css'
 import AboutSection from '../components/AboutSection'
 import aboutData from '../utils/aboutData'
+import skillsData from '../utils/skillsData'
 import BackButton from '../components/BackButton'
+import SkillSection from '../components/SkillsSection'
 
 const About = () => {
   return (
@@ -32,6 +34,14 @@ const About = () => {
           {aboutData.map(({ heading, items }, index) => (
             <AboutSection key={index} heading={heading} items={items} />
           ))}
+          <div>
+            <h2>Skills</h2>
+            <div className={styles.skillMain}>
+              {skillsData.map(({ heading, items }, index) => (
+                <SkillSection key={index} heading={heading} items={items} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </Fragment>
