@@ -4,4 +4,10 @@ const getJoke = () => {
   return jokes[index]
 }
 
-export default getJoke
+const getContactJoke = () => {
+  const jokes = ['Those url must be clickable']
+  const index = Math.floor(Math.random() * jokes.length)
+  return jokes[index]
+}
+
+export { getJoke, getContactJoke }

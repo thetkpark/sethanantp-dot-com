@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Fragment } from 'react'
-import getJoke from '../utils/joke'
+import { getContactJoke } from '../utils/joke'
 import styles from '../styles/Contact.module.css'
 
 const Contacts = ({ joke }) => {
@@ -67,7 +67,7 @@ const Contacts = ({ joke }) => {
 export async function getStaticProps(_) {
   return {
     props: {
-      joke: getJoke(),
+      joke: getContactJoke(),
     },
   }
 }

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import styles from '../styles/Home.module.css'
-import getJoke from '../utils/joke'
+import { getJoke } from '../utils/joke'
 
 export default function Home({ joke }) {
   return (
