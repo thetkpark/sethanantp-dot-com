@@ -45,3 +45,18 @@
     font-weight: 400;
     font-size: 1.5rem;
 }
+
+.joke {
+    position: absolute;
+    top: 78vh;
+    right: 23vw;
+  }
+  
+  .joke span {
+    color: #BEBEBE;
+    font-weight: 300;
+    font-size: 1rem;
+    position: relative;
+    bottom: 6vh;
+    left: 1vw;
+  }

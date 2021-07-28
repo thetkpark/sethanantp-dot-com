@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Fragment } from 'react'
+import getJoke from '../utils/joke'
 import styles from '../styles/Contact.module.css'
 
-const Contacts = () => {
+const Contacts = ({ joke }) => {
   const contactData = [
     {
       icon: faEnvelope,
@@ -53,9 +55,21 @@ const Contacts = () => {
           <h1 className={styles.heading}>Contact</h1>
           <div>{contact}</div>
         </div>
+        <div className={styles.joke}>
+          <Image src="/images/nong.svg" width="40px" height="70px" alt="just a joke" />
+          <span>{joke}</span>
+        </div>
       </div>
     </Fragment>
   )
+}
+
+export async function getStaticProps(_) {
+  return {
+    props: {
+      joke: getJoke(),
+    },
+  }
 }
 
 export default Contacts
