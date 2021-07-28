@@ -1,9 +1,9 @@
-const AboutItem = () => {
+const AboutItem = ({ title, detail1, detail2 }) => {
   return (
     <div>
-      <h3>{`King Mongkut's University of Technology Thonburi`}</h3>
-      <h4>{`B.Sc. Computer Science | Petchra Prajomklao Scholarship | 2019 - Present`}</h4>
-      <h4>{`GPAX: 3.90`}</h4>
+      <h3>{title}</h3>
+      <h4>{detail1}</h4>
+      <h4>{detail2}</h4>
     </div>
   )
 }
