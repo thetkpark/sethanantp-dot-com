@@ -5,7 +5,7 @@ const getJoke = () => {
 }
 
 const getContactJoke = () => {
-  const jokes = ['Those url must be clickable']
+  const jokes = ['Those url must be clickable', `Hello, hello, baby, you called? I can't hear a thing`]
   const index = Math.floor(Math.random() * jokes.length)
   return jokes[index]
 }
