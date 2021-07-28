@@ -16,8 +16,8 @@ const About = () => {
           <div className={styles.header}>
             <Image
               className={styles.profileImage}
-              width="200px"
-              height="200px"
+              width="220px"
+              height="220px"
               alt="profile picture"
               src="/images/profile_pic.webp"
             />

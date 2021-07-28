@@ -50,18 +50,24 @@ const aboutData = [
       {
         title: 'MeVaccine',
         detail1: '2021 | Prototype of vaccination appointment mobile application',
+        github: 'https://github.com/MeVaccine',
       },
       {
         title: 'Eduroom',
         detail1: '2020 | Prototype of online education platform',
+        github: 'https://github.com/CS20-SIT/Eduroom',
+        website: 'https://eduroom.cscms.me/',
       },
       {
         title: 'CS21 Peer Mentor',
         detail1: '2020 | PWA for new CS students welcoming acitivity ',
+        github: 'https://github.com/GGolfz/cs21-peer-mentor',
       },
       {
         title: 'cscms.me',
         detail1: '2019 | Online grader for practicing programming skills',
+        github: 'https://github.com/thetkpark/cscms-services-deployment',
+        website: 'https://cscms.me',
       },
     ],
   },
@@ -71,18 +77,26 @@ const aboutData = [
       {
         title: 'Setthi',
         detail1: '2021 | Mobile application for money management',
+        github: 'https://github.com/GGolfz/Setthi',
+        googlePlay: 'https://play.google.com/store/apps/details?id=com.setthi.setthi',
       },
       {
         title: 'CSCMS URL Shortener',
         detail1: '2020 | Free and no data collection URL shortener',
+        github: 'https://github.com/thetkpark/cscms-url-shortener',
+        website: 'https://aka.cscms.me',
       },
       {
         title: 'CSCMS Temp Storage',
         detail1: '2020 | Temporary file dumping web application',
+        github: 'https://github.com/thetkpark/temp-storage',
+        website: 'https://tmp.cscms.me',
       },
       {
         title: 'Timetable',
         detail1: '2020 | Web application and API for CS students timetable',
+        github: 'https://github.com/thetkpark/sit-timetable',
+        website: 'https://timetable.cscms.me',
       },
     ],
   },
