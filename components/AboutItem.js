@@ -4,6 +4,7 @@ import { faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 import styles from '../styles/AboutItem.module.css'
+import { Fragment } from 'react'
 
 const AboutItem = ({ item }) => {
   const { title, detail1, detail2, github, googlePlay, website } = item
@@ -12,7 +13,7 @@ const AboutItem = ({ item }) => {
     return (
       <Link href={href}>
         <a>
-          <FontAwesomeIcon icon={icon} color="#F4F3F3" size="lg" />
+          <FontAwesomeIcon icon={icon} color="#F4F3F3" size="lg" className={styles.icon} />
         </a>
       </Link>
     )
@@ -22,7 +23,7 @@ const AboutItem = ({ item }) => {
     <div className={styles.container}>
       <div className={styles.header}>
         <h3>{title}</h3>
-        <div>
+        <div className={styles.iconsContainer}>
           {github ? getIcon(github, faGithub) : undefined}
           {website ? getIcon(website, faExternalLinkAlt) : undefined}
           {googlePlay ? getIcon(googlePlay, faGooglePlay) : undefined}
