@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -31,17 +30,13 @@ const Contacts = ({ joke }) => {
   const contact = contactData.map(({ icon, text, link }, index) => {
     return (
       <div key={index} className={styles.contact}>
-        <Link href={link}>
-          <a>
-            <FontAwesomeIcon size={'3x'} icon={icon} color="#F2F2F2" />
-          </a>
-        </Link>
+        <a target="_blank" href={link} rel="noopener noreferrer">
+          <FontAwesomeIcon size={'3x'} icon={icon} color="#F2F2F2" />
+        </a>
         <div style={{ width: '40px' }} />
-        <Link href={link}>
-          <a>
-            <h4 className={styles.contactText}>{text}</h4>
-          </a>
-        </Link>
+        <a target="_blank" href={link} rel="noopener noreferrer">
+          <h4 className={styles.contactText}>{text}</h4>
+        </a>
       </div>
     )
   })
