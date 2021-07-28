@@ -24,7 +24,7 @@ const About = () => {
             <div style={{ width: '4vw' }} />
             <div className={styles.texts}>
               <h1>Sethanant Pipatpakorn</h1>
-              <h4>What text should go on here</h4>
+              <h4>{`"We choose to go to the moon ... not because they are easy, but because they are hard." - JFK`}</h4>
             </div>
           </div>
           {aboutData.map(({ heading, items }, index) => (

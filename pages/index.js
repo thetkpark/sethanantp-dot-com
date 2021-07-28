@@ -51,7 +51,7 @@ export default function Home({ joke }) {
   )
 }
 
-export async function getStaticProps(_) {
+export async function getServerSideProps(_) {
   return {
     props: {
       joke: getJoke(),

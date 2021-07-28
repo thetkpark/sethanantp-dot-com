@@ -1,5 +1,10 @@
 const getJoke = () => {
-  const jokes = ['What? No frontend?', 'No frontend, but he make this site', '']
+  const jokes = [
+    'What? No frontend?',
+    'No frontend, how did he made this site?',
+    'My head is in the cloud~',
+    `Hi there. I'm climing here for years`,
+  ]
   const index = Math.floor(Math.random() * jokes.length)
   return jokes[index]
 }

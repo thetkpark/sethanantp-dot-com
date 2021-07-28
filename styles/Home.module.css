@@ -71,9 +71,9 @@
 }
 
 .joke {
-  position: absolute;
-  top: 78vh;
-  right: 23vw;
+  position: fixed;
+  top: 80vh;
+  right: 8vw;
 }
 
 .joke span {
