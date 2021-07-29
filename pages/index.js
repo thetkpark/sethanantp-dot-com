@@ -33,21 +33,21 @@ export default function Home({ joke }) {
             <h4>Backend, Cloud, Ops, Blockchain, ... but not frontend</h4>
           </div>
           <div className={styles.sectorThree}>
-            <Button inverted basic circular>
-              <Link href="/about">
+            <Link href="/about">
+              <Button inverted basic circular>
                 <a className={styles.link}>About</a>
-              </Link>
-            </Button>
+              </Button>
+            </Link>
             <Button inverted basic circular>
               <a className={styles.link} href="https://blog.sethanantp.com">
                 Blog
               </a>
             </Button>
-            <Button inverted basic circular>
-              <Link href="/contact">
+            <Link href="/contact">
+              <Button inverted basic circular>
                 <a className={styles.link}>Contact</a>
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </div>
         </div>
         <div className={styles.joke}>
