@@ -35,7 +35,7 @@ const About = () => {
             <AboutSection key={index} heading={heading} items={items} />
           ))}
           <div>
-            <h2>Skills</h2>
+            <h2 className={styles.headerText}>Skills</h2>
             <div className={styles.skillMain}>
               {skillsData.map(({ heading, items }, index) => (
                 <SkillSection key={index} heading={heading} items={items} />

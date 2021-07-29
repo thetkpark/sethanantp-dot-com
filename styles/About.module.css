@@ -50,6 +50,10 @@
     font-weight: 300;
 }
 
+.headerText {
+    composes: headerText from './AboutSection.module.css'
+}
+
 .skillMain {
     border-left: 2vw;
     display: flex;
