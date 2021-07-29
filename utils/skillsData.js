@@ -17,7 +17,7 @@ const skillsData = [
   },
   {
     heading: 'Familiar',
-    items: ['Golang', 'Terraform', 'Spring', 'React & NextJS', 'Dart & Flutter'],
+    items: ['Golang', 'Terraform', 'Spring', 'React & NextJS', 'Dart & Flutter', 'Solidity'],
   },
 ]
 
