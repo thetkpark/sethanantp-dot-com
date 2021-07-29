@@ -35,15 +35,17 @@ export default function Home({ joke }) {
           <div className={styles.sectorThree}>
             <Button inverted basic circular>
               <Link href="/about">
-                <a>About</a>
+                <a className={styles.link}>About</a>
               </Link>
             </Button>
             <Button inverted basic circular>
-              <a href="https://blog.sethanantp.com">Blog</a>
+              <a className={styles.link} href="https://blog.sethanantp.com">
+                Blog
+              </a>
             </Button>
             <Button inverted basic circular>
               <Link href="/contact">
-                <a>Contact</a>
+                <a className={styles.link}>Contact</a>
               </Link>
             </Button>
           </div>
