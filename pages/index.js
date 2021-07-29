@@ -23,8 +23,8 @@ export default function Home({ joke }) {
               alt="profile picture"
               src="/images/profile_pic.webp"
             />
-            <div style={{ width: '5vw' }} />
-            <div>
+            <div style={{ width: '4vw' }} />
+            <div className={styles.nameContainer}>
               <h1 className={styles.name}>Sethanant</h1>
               <h1 className={styles.name}>Pipatpakorn</h1>
             </div>
