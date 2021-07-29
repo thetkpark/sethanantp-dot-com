@@ -10,7 +10,7 @@ const BackButton = () => {
     router.push('/')
   }
   return (
-    <Button inverted basic circular size="tiny" onClick={onClick} className={styles.backButton}>
+    <Button inverted basic circular size="tiny" onClick={onClick} className={styles.backButton} aria-label="Back">
       <FontAwesomeIcon icon={faArrowLeft} size="1x" />
     </Button>
   )
