@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Button } from 'semantic-ui-react'
 import { Fragment } from 'react'
 import styles from '../styles/Home.module.css'
+import 'semantic-ui-css/components/button.min.css'
 import { getJoke } from '../utils/joke'
 
 export default function Home({ joke }) {
@@ -31,15 +33,19 @@ export default function Home({ joke }) {
             <h4>Backend, Cloud, Ops, Blockchain, ... but not frontend</h4>
           </div>
           <div className={styles.sectorThree}>
-            <Link href="/about">
-              <a className={styles.link}>About</a>
-            </Link>
-            <Link href="https://blog.sethanantp.com">
-              <a className={styles.link}>Blog</a>
-            </Link>
-            <Link href="/contact">
-              <a className={styles.link}>Contact</a>
-            </Link>
+            <Button inverted basic circular>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </Button>
+            <Button inverted basic circular>
+              <a href="https://blog.sethanantp.com">Blog</a>
+            </Button>
+            <Button inverted basic circular>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </Button>
           </div>
         </div>
         <div className={styles.joke}>
