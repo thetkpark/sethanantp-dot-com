@@ -50,7 +50,7 @@
     font-weight: 300;
 }
 
-.headerText {
+.skillHeaderText {
     composes: headerText from './AboutSection.module.css'
 }
 
