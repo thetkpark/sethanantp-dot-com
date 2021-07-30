@@ -12,6 +12,7 @@ export default function Home({ joke }) {
     <Fragment>
       <Head>
         <title>Sethanant Pipatpakorn | Backend Developer</title>
+        <meta name="theme-color" content="#1E1D1D"></meta>
       </Head>
       <div className={styles.container}>
         <div className={styles.main}>

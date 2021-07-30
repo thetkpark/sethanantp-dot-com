@@ -13,6 +13,7 @@ const About = () => {
     <Fragment>
       <Head>
         <title>Sethanant Pipatpakorn | About</title>
+        <meta name="theme-color" content="#212121"></meta>
       </Head>
       <div className={styles.container}>
         <BackButton />

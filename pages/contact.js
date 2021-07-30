@@ -45,6 +45,7 @@ const Contacts = ({ joke }) => {
     <Fragment>
       <Head>
         <title>Sethanant Pipatpakorn | Contact</title>
+        <meta name="theme-color" content="#1E1D1D"></meta>
       </Head>
       <div className={styles.container}>
         <BackButton />
