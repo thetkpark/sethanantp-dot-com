@@ -75,6 +75,11 @@ const aboutData = [
     heading: 'Projects',
     items: [
       {
+        title: 'k64',
+        detail1: '2021 | A CLI that encode normal string in data fields of Kubernetes secret YAML to base64.',
+        github: 'https://github.com/thetkpark/k64',
+      },
+      {
         title: 'Setthi',
         detail1: '2021 | Mobile application for money management',
         github: 'https://github.com/GGolfz/Setthi',
