@@ -93,8 +93,8 @@ const aboutData = [
       },
       {
         title: 'CSCMS Temp Storage',
-        detail1: '2020 | Temporary file dumping web application',
-        github: 'https://github.com/thetkpark/temp-storage',
+        detail1: '2020 | Temporary encrypted file dumping web application',
+        github: 'https://github.com/thetkpark/cscms-temp-storage',
         website: 'https://tmp.cscms.me',
       },
       {

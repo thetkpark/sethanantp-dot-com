@@ -1,23 +1,15 @@
 const skillsData = [
   {
     heading: 'Proficient',
-    items: [
-      'Cloud Services',
-      'JavaScript & TypeScript',
-      'NodeJS',
-      'Java',
-      'Relational Database',
-      'Docker',
-      'DevOps & CI/CD',
-    ],
+    items: ['Cloud Services', 'JavaScript & TypeScript', 'NodeJS', 'Java', 'Relational Database', 'Docker', ,],
   },
   {
     heading: 'Comfortable',
-    items: ['MongoDB', 'Kubernetes', 'NestJS'],
+    items: ['MongoDB', 'Kubernetes', 'NestJS', 'Golang', 'gRPC', 'DevOps & CI/CD'],
   },
   {
     heading: 'Familiar',
-    items: ['Golang', 'Terraform', 'Spring', 'React & NextJS', 'Dart & Flutter', 'Solidity'],
+    items: ['Terraform', 'Spring', 'React & NextJS', 'Dart & Flutter', 'Solidity'],
   },
 ]
 
