@@ -75,6 +75,12 @@ const aboutData = [
     heading: 'Projects',
     items: [
       {
+        title: 'CSCMS Internship Collection',
+        detail1: '2021 | Community based internship in tech collection web application',
+        github: 'http://github.com/ggolfz/cscms-intern',
+        website: 'https://intern.cscms.me',
+      },
+      {
         title: 'k64',
         detail1: '2021 | A CLI that encode normal string in data fields of Kubernetes secret YAML to base64.',
         github: 'https://github.com/thetkpark/k64',
