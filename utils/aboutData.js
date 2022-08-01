@@ -5,7 +5,7 @@ const aboutData = [
       {
         title: `King Mongkut's University of Technology Thonburi`,
         detail1: `B.Sc. Computer Science | Petchra Prajomklao Scholarship | 2019 - Present`,
-        detail2: 'GPAX: 3.90',
+        detail2: 'GPAX: 3.91',
       },
       {
         title: `Suankularb Wittayalai Nonthaburi School`,
@@ -18,12 +18,16 @@ const aboutData = [
     heading: 'Certifications',
     items: [
       {
+        title: 'Microsoft Certified: Azure Developer Associate',
+        detail1: 'Expires on February 27, 2023',
+      },
+      {
         title: 'Microsoft Certified: Azure Administrator Associate',
-        detail1: 'April 29, 2021 - April 29, 2023',
+        detail1: 'Expired on April 29, 2023',
       },
       {
         title: 'Microsoft Certified: Azure Fundamentals',
-        detail1: 'July 8, 2020',
+        detail1: 'Issued on July 8, 2020',
       },
     ],
   },
@@ -32,7 +36,7 @@ const aboutData = [
     items: [
       {
         title: 'Google Developer Student Club KMUTT',
-        detail1: 'Core Team | 2020 - Present',
+        detail1: 'Core Team | 2020 - 2022',
       },
       {
         title: 'Microsoft Learn Student Ambassadors',
@@ -48,15 +52,14 @@ const aboutData = [
     heading: 'Featured Projects',
     items: [
       {
+        title: 'Heimdall',
+        detail1: '2022 | A JWS authentication service',
+        github: 'https://github.com/thetkpark/heimdall',
+      },
+      {
         title: 'MeVaccine',
         detail1: '2021 | Prototype of vaccination appointment mobile application',
         github: 'https://github.com/MeVaccine',
-      },
-      {
-        title: 'Eduroom',
-        detail1: '2020 | Prototype of online education platform',
-        github: 'https://github.com/CS20-SIT/Eduroom',
-        website: 'https://eduroom.cscms.me/',
       },
       {
         title: 'CS21 Peer Mentor',
@@ -102,6 +105,12 @@ const aboutData = [
         detail1: '2020 | Web application and API for CS students timetable',
         github: 'https://github.com/thetkpark/sit-timetable',
         website: 'https://timetable.cscms.me',
+      },
+      {
+        title: 'Eduroom',
+        detail1: '2020 | Prototype of online education platform',
+        github: 'https://github.com/CS20-SIT/Eduroom',
+        website: 'https://eduroom.cscms.me/',
       },
       {
         title: 'cscms.me',
