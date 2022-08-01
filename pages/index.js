@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 import 'semantic-ui-css/components/button.min.css'
 import { getJoke } from '../utils/joke'
 
-export default function Home({ joke }) {
+export default function Home() {
   return (
     <Fragment>
       <Head>
@@ -34,7 +34,7 @@ export default function Home({ joke }) {
             <h4>Backend, Cloud, Ops, Blockchain, ... but not frontend</h4>
           </div>
           <div className={styles.sectorThree}>
-            <Link href="/about">
+            <Link href="/about" passHref>
               <Button inverted basic circular>
                 <a className={styles.link}>About</a>
               </Button>
@@ -44,7 +44,7 @@ export default function Home({ joke }) {
                 Blog
               </a>
             </Button>
-            <Link href="/contact">
+            <Link href="/contact" passHref>
               <Button inverted basic circular>
                 <a className={styles.link}>Contact</a>
               </Button>
@@ -53,17 +53,10 @@ export default function Home({ joke }) {
         </div>
         <div className={styles.joke}>
           <Image src="/images/nong.svg" width="40px" height="70px" alt="just a joke" />
-          <span>{joke}</span>
+          <span>{getJoke()}</span>
         </div>
       </div>
     </Fragment>
   )
 }
 
-export async function getServerSideProps(_) {
-  return {
-    props: {
-      joke: getJoke(),
-    },
-  }
-}

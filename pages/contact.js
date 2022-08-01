@@ -8,7 +8,7 @@ import { getContactJoke } from '../utils/joke'
 import styles from '../styles/Contact.module.css'
 import BackButton from '../components/BackButton'
 
-const Contacts = ({ joke }) => {
+const Contacts = () => {
   const contactData = [
     {
       icon: faEnvelope,
@@ -55,19 +55,11 @@ const Contacts = ({ joke }) => {
         </div>
         <div className={styles.joke}>
           <Image src="/images/nong.svg" width="40px" height="70px" alt="just a joke" />
-          <span>{joke}</span>
+          <span>{getContactJoke()}</span>
         </div>
       </div>
     </Fragment>
   )
-}
-
-export async function getServerSideProps(_) {
-  return {
-    props: {
-      joke: getContactJoke(),
-    },
-  }
 }
 
 export default Contacts
