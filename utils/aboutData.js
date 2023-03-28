@@ -1,11 +1,20 @@
 const aboutData = [
   {
+    heading: 'Work Experience',
+    items: [
+      {
+        title: 'KASIKORN Business-Technology Group (KBTG)',
+        detail1: `Innovation Engineer | Feb 2023 - Present`,
+      },
+    ],
+  },
+  {
     heading: 'Educations',
     items: [
       {
         title: `King Mongkut's University of Technology Thonburi`,
-        detail1: `B.Sc. Computer Science | Petchra Prajomklao Scholarship | 2019 - Present`,
-        detail2: 'GPAX: 3.91',
+        detail1: `B.Sc. Computer Science | Petchra Prajomklao Scholarship | 2019 - 2022`,
+        detail2: 'GPAX: 3.92',
       },
       {
         title: `Suankularb Wittayalai Nonthaburi School`,
