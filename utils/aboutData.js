@@ -28,11 +28,11 @@ const aboutData = [
     items: [
       {
         title: 'Microsoft Certified: Azure Developer Associate',
-        detail1: 'Expires on February 27, 2023',
+        detail1: 'Expires on February 28, 2025',
       },
       {
         title: 'Microsoft Certified: Azure Administrator Associate',
-        detail1: 'Expired on April 29, 2023',
+        detail1: 'Expired on April 30, 2026',
       },
       {
         title: 'Microsoft Certified: Azure Fundamentals',
@@ -49,7 +49,7 @@ const aboutData = [
       },
       {
         title: 'Microsoft Learn Student Ambassadors',
-        detail1: '2019 - Present',
+        detail1: '2019 - 2022',
       },
       {
         title: 'AFS Exchange Student',
