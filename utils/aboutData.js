@@ -28,7 +28,7 @@ const aboutData = [
     items: [
       {
         title: 'Microsoft Certified: Azure Developer Associate',
-        detail1: 'Expires on February 28, 2025',
+        detail1: 'Expires on February 28, 2026',
       },
       {
         title: 'Microsoft Certified: Azure Administrator Associate',
