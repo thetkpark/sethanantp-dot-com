@@ -3,8 +3,12 @@ const aboutData = [
     heading: 'Work Experience',
     items: [
       {
-        title: 'KASIKORN Business-Technology Group (KBTG)',
-        detail1: `Innovation Engineer | Feb 2023 - Present`,
+        title: 'LINE MAN Wongnai - Search Team',
+        detail1: `Software Engineer | Dec 2025 - Present`,
+      },
+      {
+        title: 'KASIKORN Business-Technology Group (KBTG) - MAKE by KBank',
+        detail1: `Innovation Engineer | Feb 2023 - Nov 2025`,
       },
     ],
   },
@@ -27,16 +31,16 @@ const aboutData = [
     heading: 'Certifications',
     items: [
       {
-        title: 'Microsoft Certified: Azure Developer Associate',
-        detail1: 'Expires on February 28, 2026',
-      },
-      {
         title: 'Microsoft Certified: Azure Administrator Associate',
-        detail1: 'Expired on April 30, 2026',
+        detail1: 'Expired on April 30, 2027',
       },
       {
         title: 'Microsoft Certified: Azure Fundamentals',
         detail1: 'Issued on July 8, 2020',
+      },
+      {
+        title: 'Microsoft Certified: Azure Developer Associate',
+        detail1: 'Expires on February 28, 2026',
       },
     ],
   },
